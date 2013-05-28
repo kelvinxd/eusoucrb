@@ -1,0 +1,10 @@
+# -*- coding: cp1252 -*-
+#série de fibonacci
+n=input('entre com um numero para a série de fibonacci')
+lista=range(1, n+1)
+lista_f=[1]
+for x in lista:
+    while x<n:
+        lista_f.append(x + (x-1))
+    
+print lista_f
